@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>A free Q&A form</title>
+        <meta title="Q&A coding form">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="most-rated">
+               <div class="header">                                   
+                   <h1>Questions</h1>
+               </div>
+               <div class="questions" id="questions">
+                   <div class="question-views">
+                       <span id="number-of-votes" class="number-of-votes"></span>
+                       <span id="number-of-answers" class="number-of-answers"></span>
+                       <span id="number-of-views" class="number-of-views"></span>
+                    </div>
+                    <div class="question-info">
+                        <h2 class="question-title" id="question-title"></h2>
+                        <p class="question-info" id="question-info"></p>
+                        <p><a class="question-url" id="question-url"></a></p>
+                        <span id="question-stars" class="question-stars"></span>
+                        <span id="question-owner" class="question-owner"></span>
+                    </div>
+               </div>
+            </div>
+            <div class="searchbar">
+                <form action="search.php">
+                    <input type="text" value="" name="question">
+                    <input type="submit" value="Search for a question">
+                </form>
+            </div>
+            <div class="links">
+                 <ol>
+                     <li><a href="ask.html">Ask a question</a></li>
+                     <li><a href="about.html">About</a></li>
+                 </ol>
+            </div>
+        </div>
+    </body>
+</html>
