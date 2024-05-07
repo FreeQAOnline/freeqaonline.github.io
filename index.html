@@ -23,19 +23,26 @@
                         <span id="question-stars" class="question-stars"></span>
                         <span id="question-owner" class="question-owner"></span>
                     </div>
+                   <div class="question-form">
+                        <form action="javascript:postQuestion()">
+                            <input type="text" value="" placeholder="Question Title" id="questionTitle">
+                            <input type="text" value="" placeholder="Question" id="question">
+                            <input type="submit" value="Submit your question">
+                        </form>
+                   </div>
                </div>
             </div>
             <div class="searchbar">
-                <form action="search.php">
+                <form action="javascript:search()">
                     <input type="text" value="" name="question">
                     <input type="submit" value="Search for a question">
                 </form>
             </div>
             <div class="links">
-                 <ol>
+                 <ul>
                      <li><a href="ask.html">Ask a question</a></li>
                      <li><a href="about.html">About</a></li>
-                 </ol>
+                 </ul>
             </div>
         </div>
     </body>
