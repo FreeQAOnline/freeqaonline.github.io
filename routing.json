@@ -1,0 +1,32 @@
+{
+    "routing":{
+        "/home":{
+          "page": "index.html",
+          "allowed": "true"
+        },
+        "/about":{
+            "page": "about.html",
+            "allowed": "true"
+        },
+        "/privacy":{
+            "page": "privacy.html",
+            "allowed": "true"
+        },
+        "/login":{
+            "page": "login.html",
+            "allowed": "false"
+        },
+        "/signup":{
+            "page": "signup.html",
+            "allowed": "true"
+        },
+        "/logout":{
+            "page": "logout.html",
+            "allowed": "false"
+        },
+        "/ask":{
+            "page": "ask.html",
+            "allowed": "false"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "error_pages":{
+        "404":{
+            "title": "404 - Page not found!",
+            "header": "404 - The page you were searching for has not been found!",
+            "paragraph": "Maybe try one of the links below?",
+            "links": {
+                "Home": "/index",
+                "About": "/about",
+                "Privacy and secruity": "/privacy"
+            }
+        },
+        "400":{
+            "title": "400 - Bad Request",
+            "header": "400 - The request send was bad",
+            "links":{
+                "Home": "/home",
+                "About": "/about",
+                "Privacy and security": "/privacy"
+            }
+        },
+        "500":{
+            "title": "500 - Internal Server Error",
+            "header": "500 - An Internal Server Error happend",
+            "links":{
+                "Home": "/home",
+                "About": "/about",
+                "Privacy and security": "/privacy"
+            }
+        }
+    }
+}
