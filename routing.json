@@ -27,6 +27,6 @@
         "/ask":{
             "page": "ask.html",
             "allowed": "false"
-        }
+        },
     }
 }
